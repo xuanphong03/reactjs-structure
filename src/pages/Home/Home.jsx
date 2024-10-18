@@ -1,4 +1,3 @@
-import React from "react";
 import "./Home.scss";
 import Carousel from "./Carousel";
 import BestSeller from "./BestSeller";

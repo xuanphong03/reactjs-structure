@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import "./DefaultLayout.scss";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -7,7 +8,7 @@ export default function DefaultLayout() {
     <div>
       <Header />
       <main>
-        <h1>MAIN</h1>
+        <Outlet />
       </main>
       <Footer />
     </div>

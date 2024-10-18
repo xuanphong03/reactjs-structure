@@ -1,5 +1,7 @@
+import RenderLayout from "./core/RenderLayout";
+
 function App() {
-  return <div>App</div>;
+  return <RenderLayout />;
 }
 
 export default App;
